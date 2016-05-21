@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <br>
-  <br>
-{% include head.html %}
+<br>
+<br> {% include head.html %}
 
 <body>
 
     {% include sidebar.html %}
     <div class="container">
 
-        <div class="col-sm-8 col-offset-1">
-            {{ content }}
+        {{ content }}
 
-            <footer>
-                &copy; {{ site.author }} {% if site.github %} - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll. {% endif %}
+        <footer>
+            &copy; {{ site.author }} {% if site.github %} - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll. {% endif %}
 
-                <div class="btn-github" style="float:right;">
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.username }}&repo={{ site.username }}.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.username }}&repo={{ site.username }}.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
-                </div>
-            </footer>
-        </div>
-        <!-- end /.col-sm-8 -->
+            <div class="btn-github" style="float:right;">
+                <iframe src="https://ghbtns.com/github-btn.html?user={{ site.username }}&repo={{ site.username }}.github.io&type=star&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+                <iframe src="https://ghbtns.com/github-btn.html?user={{ site.username }}&repo={{ site.username }}.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="85" height="20px"></iframe>
+            </div>
+        </footer>
+
     </div>
     <!-- end /.container -->
 

@@ -1,6 +1,8 @@
 # Dependencies
 gems: [jekyll-paginate]
+markdown: kramdown
 
+# Custom entries
 title: Electrosheep
 description: The blog of Michael DeGraw
 author: Michael DeGraw
@@ -18,7 +20,8 @@ urls:
       url: https://github.com/electr0sheep
 url: "https://electr0sheep.github.io"
 baseurl: ""
+
+# Pagination
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
-markdown: kramdown
