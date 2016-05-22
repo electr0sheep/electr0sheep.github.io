@@ -19,7 +19,7 @@
 * Changed background color of menu
 * Increased width of the menu
 
-#### Updated (Super-Search)[https://github.com/chinchang/super-search]
+#### Updated [Super-Search](https://github.com/chinchang/super-search)
 
 #### Todo
 
