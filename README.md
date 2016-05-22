@@ -19,6 +19,8 @@
 * Changed background color of menu
 * Increased width of the menu
 
+#### Updated (Super-Search)[https://github.com/chinchang/super-search]
+
 #### Todo
 
 * Make the menu only appear in low resolutions: if a desktop is used, get rid of the menu altogether. The menu should be used solely for the benefit of viewing on mobile devices.
