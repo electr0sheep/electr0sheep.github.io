@@ -6,18 +6,21 @@
 ### Demo
 * [https://electr0sheep.github.io](https://electr0sheep.github.io)
 
-#### Modifications from My Stack Problems
+#### Modifications from [My Stack Problems](https://github.com/agusmakmun/agusmakmun.github.io)
 
 * No longer requires circular avatar
 * Avatar is now in .png format
 * Added introduction and categories to menu
-* Removed feeds
 * Added the menu button from Lanyon/Poole and put the menu items in there
 
-#### Modifications from Lanyon/Poole
+#### Modifications from [Lanyon]()
 
 * Changed background color of menu
 * Increased width of the menu
+
+#### Modifications from [Poole](https://github.com/poole/poole)
+
+* None so far
 
 #### Updated [Super-Search](https://github.com/chinchang/super-search)
 
