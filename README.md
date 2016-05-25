@@ -30,6 +30,7 @@
 
 #### Todo
 
+* FAB has greyed out text
 * Make the menu only appear in low resolutions: if a desktop is used, get rid of the menu altogether. The menu should be used solely for the benefit of viewing on mobile devices.
 * Clean up CSS and other files (I don't think the Lanyon themes are useful, just set a menu color variable in _config.yml or something)
 * Ensure that everything is as modular as possible
