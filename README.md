@@ -22,6 +22,10 @@
 
 * None so far
 
+#### Modifications from [material-floating-button](https://github.com/nobitagit/material-floating-button/)
+
+* Changed color of FAB
+
 #### Updated [Super-Search](https://github.com/chinchang/super-search)
 
 #### Todo
