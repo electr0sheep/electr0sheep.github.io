@@ -4,26 +4,28 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-      <a href="/"><img src="/static/img/avatar.png" /></a>
-      <h1 class="author-name">{{ site.author }}</h1>
-      {% if site.about %}
-      <div id="about">
-          {{ site.about }}
-      </div>
-      {% endif %}
+    <div class="sidebar-header">
+        <div class="sidebar-item">
 
-      <hr />
-      <div class="search" id="js-search">
+            <a href="/"><img src="/static/img/avatar.png" /></a>
+            <h1 class="author-name">{{ site.author }}</h1> {% if site.about %}
+            <div id="about">
+                {{ site.about }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="sidebar-item">
+    <div class="search" id="js-search">
         <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
         <ul class="search__results" id="js-search__results"></ul>
-      </div>
-      <hr />
-
-      <strong class="navheader">Navigation</strong><br />
-          &raquo; <a class="about" href="/">Home</a> <br />
-      {% for i in site.urls %}
-          &raquo; <a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
-      {% endfor %}
     </div>
+    <hr />
+
+    <strong class="navheader">Navigation</strong>
+    <br /> &raquo; <a class="about" href="/">Home</a>
+    <br /> {% for i in site.urls %} &raquo; <a class="about" href="{{ i.url }}">{{ i.text }}</a>
+    <br /> {% endfor %}
+</div>
 </div>
