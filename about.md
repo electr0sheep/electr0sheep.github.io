@@ -4,7 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-こんにちは、私は日本語話しません。
+初めまして、
+
+私は日本語話しません。
 
 私は電気の羊。
 
@@ -12,3 +14,5 @@ I am a student currently attending Texas Tech University. To make it easier for 
 
 email: mkdegraw@gmail.com
 phone: (encrypted) 八零六の二四一の四八一五
+
+よろしくお願いします。
