@@ -178,6 +178,9 @@
     display: block;
     position: absolute;
     top: 0;
+    /*
+     * "right" will position the child icons further to the left (so you can center them)
+     */
     right: 7px;
     padding: 10px 0;
     margin: -10px 0;
@@ -224,7 +227,10 @@
 }
 .mfb-component__child-icon, .mfb-component__child-icon {
     line-height: 42px;
-    font-size: 22px;
+    /*
+     * font-size will make the "icons" look bigger or smaller
+     */
+    font-size: 20px;
 }
 .mfb-component__main-icon--active {
     opacity: 0;
