@@ -213,8 +213,8 @@
     z-index: 20;
 }
 .mfb-component__button--child {
-    height: 56px;
-    width: 56px;
+    height: 28px;
+    width: 28px;
 }
 .mfb-component__main-icon--active, .mfb-component__main-icon--resting {
     -webkit-transform: scale(1) rotate(360deg);
