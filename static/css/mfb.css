@@ -419,11 +419,6 @@
     -webkit-transform: scale(0);
     transform: scale(0);
 }
-
-/**
- * what does this do? NOTHING
-**/
-
 .mfb-component--tl.mfb-zoomin .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(70px) scale(0);
     transform: translateY(70px) scale(0);
@@ -448,11 +443,6 @@
     transition: all 0.5s;
     transition-delay: 0s;
 }
-
-/**
- * what does this do? NOTHING
-**/
-
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(70px) scale(1);
     transform: translateY(70px) scale(1);
@@ -478,16 +468,16 @@
     transform: scale(0);
 }
 /**
- * transition: all is what determines the fade-in/out time here
+ * transition: all is what determines the fade-in/out animation time here
  * it is unknown what the other transition: all's do (if anything)
- * transition-delay: is what determines the delay of the fade-out
+ * transition-delay: is what determines the delay of the fade-out here
 **/
 
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(1), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(-70px) scale(0);
     transform: translateY(-70px) scale(0);
     transition: all 0.1s;
-    transition-delay: 10.075s;
+    transition-delay: 0.075s;
 }
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(2), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(2) {
     -webkit-transform: translateY(-140px) scale(0);
@@ -509,28 +499,28 @@
 }
 
 /**
- * transition-delay: is what determines when the fade-in START time here
+ * transition-delay: is what determines when the delay of the fade-in here
 **/
 
 .mfb-component--bl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--bl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1), .mfb-component--br.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--br.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(-70px) scale(1);
     transform: translateY(-70px) scale(1);
-    transition-delay: 0.05s;
+    transition-delay: 0s;
 }
 .mfb-component--bl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--bl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2), .mfb-component--br.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--br.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2) {
     -webkit-transform: translateY(-140px) scale(1);
     transform: translateY(-140px) scale(1);
-    transition-delay: 0.1s;
+    transition-delay: 0.025s;
 }
 .mfb-component--bl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(3), .mfb-component--bl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(3), .mfb-component--br.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(3), .mfb-component--br.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(3) {
     -webkit-transform: translateY(-210px) scale(1);
     transform: translateY(-210px) scale(1);
-    transition-delay: 0.15s;
+    transition-delay: 0.05s;
 }
 .mfb-component--bl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(4), .mfb-component--bl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(4), .mfb-component--br.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(4), .mfb-component--br.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(4) {
     -webkit-transform: translateY(-280px) scale(1);
     transform: translateY(-280px) scale(1);
-    transition-delay: 0.2s;
+    transition-delay: 0.075s;
 }
 
 /**
