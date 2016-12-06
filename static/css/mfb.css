@@ -446,22 +446,22 @@
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(70px) scale(1);
     transform: translateY(70px) scale(1);
-    transition-delay: 0.05s;
+    transition-delay: 0.025s;
 }
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2) {
     -webkit-transform: translateY(140px) scale(1);
     transform: translateY(140px) scale(1);
-    transition-delay: 0.1s;
+    transition-delay: 0.05s;
 }
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(3), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(3), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(3), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(3) {
     -webkit-transform: translateY(210px) scale(1);
     transform: translateY(210px) scale(1);
-    transition-delay: 0.15s;
+    transition-delay: 0.075s;
 }
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(4), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(4), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(4), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(4) {
     -webkit-transform: translateY(280px) scale(1);
     transform: translateY(280px) scale(1);
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 .mfb-component--bl.mfb-zoomin .mfb-component__list li, .mfb-component--br.mfb-zoomin .mfb-component__list li {
     -webkit-transform: scale(0);
