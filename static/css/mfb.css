@@ -443,10 +443,16 @@
     transition: all 0.5s;
     transition-delay: 0s;
 }
+
+/**
+ * transition-delay: is what determines the fade-in time here
+ * note that transition: all does NOT affect fade-in animation time here
+**/
+
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(70px) scale(1);
     transform: translateY(70px) scale(1);
-    transition-delay: 0.05s;
+    transition-delay: 10.05s;
 }
 .mfb-component--tl.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--tl.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2), .mfb-component--tr.mfb-zoomin[data-mfb-toggle="hover"]:hover .mfb-component__list li:nth-child(2), .mfb-component--tr.mfb-zoomin[data-mfb-state="open"] .mfb-component__list li:nth-child(2) {
     -webkit-transform: translateY(140px) scale(1);
@@ -470,24 +476,25 @@
 /**
  * transition: all is what determines the fade-in/out time here
  * it is unknown what the other transition: all's do (if anything)
+ * transition-delay: is what determines the delay of the fade-out
 **/
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(1), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(-70px) scale(0);
     transform: translateY(-70px) scale(0);
     transition: all 0.1s;
-    transition-delay: 10.15s;
+    transition-delay: 0.075s;
 }
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(2), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(2) {
     -webkit-transform: translateY(-140px) scale(0);
     transform: translateY(-140px) scale(0);
     transition: all 0.1s;
-    transition-delay: 0.1s;
+    transition-delay: 0.05s;
 }
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(3), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(3) {
     -webkit-transform: translateY(-210px) scale(0);
     transform: translateY(-210px) scale(0);
     transition: all 0.1s;
-    transition-delay: 0.05s;
+    transition-delay: 0.025s;
 }
 .mfb-component--bl.mfb-zoomin .mfb-component__list li:nth-child(4), .mfb-component--br.mfb-zoomin .mfb-component__list li:nth-child(4) {
     -webkit-transform: translateY(-280px) scale(0);
