@@ -276,7 +276,7 @@
 
 .mfb-component--tl.mfb-slidein .mfb-component__list li, .mfb-component--tr.mfb-slidein .mfb-component__list li {
     opacity: 0;
-    transition: all 10.5s;
+    transition: all 0.5s;
 }
 .mfb-component--tl.mfb-slidein[data-mfb-toggle="hover"]:hover .mfb-component__list li, .mfb-component--tl.mfb-slidein[data-mfb-state="open"] .mfb-component__list li, .mfb-component--tr.mfb-slidein[data-mfb-toggle="hover"]:hover .mfb-component__list li, .mfb-component--tr.mfb-slidein[data-mfb-state="open"] .mfb-component__list li {
     opacity: 1;
@@ -422,7 +422,7 @@
 .mfb-component--tl.mfb-zoomin .mfb-component__list li:nth-child(1), .mfb-component--tr.mfb-zoomin .mfb-component__list li:nth-child(1) {
     -webkit-transform: translateY(70px) scale(0);
     transform: translateY(70px) scale(0);
-    transition: all 0.5s;
+    transition: all 10.5s;
     transition-delay: 0.15s;
 }
 .mfb-component--tl.mfb-zoomin .mfb-component__list li:nth-child(2), .mfb-component--tr.mfb-zoomin .mfb-component__list li:nth-child(2) {
