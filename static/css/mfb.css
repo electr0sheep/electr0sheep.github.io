@@ -196,7 +196,7 @@
     /*
      * "right" will position the child icons further to the left (so you can center them)
      */
-    right: 7px;
+    right: 0px;
     padding: 10px 0;
     margin: -10px 0;
 }
