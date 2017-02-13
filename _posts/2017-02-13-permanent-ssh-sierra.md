@@ -18,4 +18,10 @@ Host *
   IdentityFile <PATH_TO_MORE_KEYS>
 ```
 
+Then, from the terminal run
+
+```
+ssh-add -K ~/.ssh/id_rsa
+```
+
 Now, when you reset your machine you won't have to manually ssh-add every time.
