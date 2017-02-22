@@ -4,15 +4,16 @@ title: About Me
 permalink: /about/
 ---
 
-初めまして、
+初めまして、私は電気の羊。
+日本語を話しません。日本語も読みません。日本語はとても難しいです。
+今、テキサステック大学生です。プログラミングが好きです。
+猫があります。猫が大好きです。
+ギターを弾くのが上手です。すみません、ギターを弾くのがとても下手です。
+たくさん彼女がいます。御免なさい、一人の彼女がいます。すみません、彼女がいません。
+今、悲しいです。あなたは私の彼女になりますか。
+頭がよかないです、でもとてもかっこいいです。
 
-私は日本語話しません。
 
-私は電気の羊。
-
-I am a student currently attending Texas Tech University. To make it easier for me to edit this, I'm going to not have it be exactly the same thing as the little text below my thing(electrosheep logo in the menu).
-
-email: mkdegraw@gmail.com
-phone: (encrypted) 八零六の二四一の四八一五
+電子メイル: mkdegraw@gmail.com
 
 よろしくお願いします。
