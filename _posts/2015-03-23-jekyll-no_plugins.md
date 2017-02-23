@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Pages doesn't support plugins???
+title: Github Pages doesn't support plugins???
 category: random
 ---
 

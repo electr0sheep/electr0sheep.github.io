@@ -4,7 +4,8 @@ title: Dude, what's going on with your blog?
 category: random
 ---
 
-###Seriously, what's with all the clutter?###
+Seriously, what's with all the clutter?
+=======================================
 First off, this is pretty much my experimental grounds. Basically, the way it
 works is, I get an idea in my head like, "Wouldn't it be cool if I had a
 background image?" and I just roll with it. In other words, I definitely haven't
@@ -15,8 +16,8 @@ Yosemite. The difference here is that the colors are very plain, whereas before
 it seems like people preferred, for lack of a better word, things to be shiny.
 I personally thought Mavericks looked like crap, and was stoked when I installed
 the beta of Yosemite and found that it was more Material Design-ish. For an
-example of a blog that I would consider well-designed, (head on over to my
-brother's blog)[http://catskull.net]. So yeah, sorry for all the clutter, but
+example of a blog that I would consider well-designed, [head on over to my
+brother's blog](http://catskull.net). So yeah, sorry for all the clutter, but
 honestly, I think I'm the only one who ever looks at this crap, which is why
 I have stated in this very blog that I will primarily use it for my own benefit.
 My posts are primarily about things I struggled with, like tweaking bootcamp,
