@@ -5,7 +5,7 @@ category: random
 ---
 
 Seriously, what's with all the clutter?
-=======================================
+---------------------------------------
 First off, this is pretty much my experimental grounds. Basically, the way it
 works is, I get an idea in my head like, "Wouldn't it be cool if I had a
 background image?" and I just roll with it. In other words, I definitely haven't
