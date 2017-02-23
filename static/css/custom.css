@@ -1,3 +1,7 @@
 .sidebar-header{
   background-color: #0F2B6D;
 }
+
+body {
+  background-image: url("/static/img/electro_logo.png");
+}
