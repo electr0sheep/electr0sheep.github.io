@@ -222,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 2.2rem;
     padding: .5rem .65rem;
+    padding-bottom: 1cm;
     color: #505050;
     background-color: #fff;
     border-radius: 4px;
