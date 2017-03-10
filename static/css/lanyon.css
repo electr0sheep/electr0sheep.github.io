@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 
 .sidebar-toggle {
-    position: absolute;
+    position: fixed;
     top: 1rem;
     left: 1rem;
     display: block;
