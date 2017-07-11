@@ -18,7 +18,8 @@ urls:
       url: /about/
     - text: Github
       url: https://github.com/electr0sheep
-url: "https://electr0sheep.github.io"
+url: https://electr0sheep.com
+enforce_ssl: electr0sheep.com
 baseurl: ""
 
 # Pagination
