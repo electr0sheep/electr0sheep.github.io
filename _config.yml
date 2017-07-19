@@ -1,7 +1,6 @@
 # Dependencies
 gems: [jekyll-paginate]
 markdown: kramdown
-  input: GFM
 
 # Custom entries
 title: Electrosheep
