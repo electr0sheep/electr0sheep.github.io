@@ -1,3 +1,9 @@
+---
+layout: post
+title: Metasploitable Tutorial
+category: cryptography
+---
+
 This tutorial assumes you have a metasploitable virtual machine installed
 correctly (with network ports visible) and that you will be using Kali Linux to
 assess vulnerabilities.
@@ -28,3 +34,8 @@ Metasploitable 2 has a tendency to be a little too easy to exploit (exploitable
 using a single module), Metasploitable 3 isn't quite so easy. Another key
 feature of Metasploitable 3 is that it is open source. A downside is that
 Metasploitable 3 must be built manually. More info [here](https://community.rapid7.com/community/metasploit/blog/2016/11/15/test-your-might-with-the-shiny-new-metasploitable3). The repo can be found [here](https://github.com/rapid7/metasploitable3/).
+
+<script>
+var remote_ip = prompt("Please enter Metasploitable's IP address");
+var host_ip = prompt("Please enter your IP address");
+</script>
