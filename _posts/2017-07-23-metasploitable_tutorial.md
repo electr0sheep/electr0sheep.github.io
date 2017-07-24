@@ -38,4 +38,6 @@ Metasploitable 3 must be built manually. More info [here](https://community.rapi
 <script>
 var remote_ip = prompt("Please enter Metasploitable's IP address");
 var host_ip = prompt("Please enter your IP address");
+document.getElementById('remote_ip_addr').innerHTML = remote_ip;
+document.getElementById('host_ip_addr').innerHTML = host_ip;
 </script>
