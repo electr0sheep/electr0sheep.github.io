@@ -9,15 +9,15 @@ There are some great Metasploit/Metasploitable tutorials [here](http://www.hacki
 There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/hack-databases-hacking-mysql-online-databases-with-sqlmap-0150368/).  
 
 Furthermore, I have posted links to the pdfs of my cybersecurity class labs.  
-[Lab 1](public/files/LAB 1 Symmetric Crypt-10-2-2016.pdf)  
+[Lab 1](public/files/LAB1.pdf)  
 *An introduction to the different modes of operation used by symmetric ciphers*  
-[Lab 2](public/files/LAB 2-WPAATTACK-10-17-2016.pdf)  
+[Lab 2](public/files/LAB2.pdf)  
 *An introduction to WPA passphrase cracking*  
-[Lab 3](public/files/LAB 3 Asymmetric Crypt FINALL.pdf)  
+[Lab 3](public/files/LAB3.pdf)  
 *An introduction to asymmetric ciphers and how they compare to symmetric ciphers*  
-[Lab 4](public/files/LAB 4- CA Final.pdf)  
+[Lab 4](public/files/LAB4.pdf)  
 *An introduction to certificate authorities*  
-[Lab 5](public/files/Lab 5 Gaming SSL Final.pdf)  
+[Lab 5](public/files/Lab5.pdf)  
 *A MITM attack on TLS/SSL*  
 
 # Future
