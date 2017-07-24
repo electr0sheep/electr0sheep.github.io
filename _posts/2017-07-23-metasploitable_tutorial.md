@@ -6,7 +6,7 @@ This post is a WIP, but I will link several resources you can use while I figure
 out what I am doing myself.
 
 There are some great Metasploit/Metasploitable tutorials [here](http://www.hackingtutorials.org/metasploit-tutorials/).  
-There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/hack-databases-hacking-mysql-online-databases-with-sqlmap-0150368/).  
+There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/).  
 
 Furthermore, I have posted links to the pdfs of my cybersecurity class labs.  
 [Lab 1](/public/files/LAB1.pdf)  
