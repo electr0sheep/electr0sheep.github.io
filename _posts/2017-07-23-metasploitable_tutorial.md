@@ -5,19 +5,20 @@ assess vulnerabilities.
 This post is a WIP, but I will link several resources you can use while I figure
 out what I am doing myself.
 
-There are some great Metasploit/Metasploitable tutorials [here](http://www.hackingtutorials.org/metasploit-tutorials/).
-There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/hack-databases-hacking-mysql-online-databases-with-sqlmap-0150368/).
-Furthermore, I have posted links to the pdfs of my cybersecurity class labs.
-[Lab 1](public/LAB 1 Symmetric Crypt-10-2-2016.pdf)
-*An introduction to the different modes of operation used by symmetric ciphers*
-[Lab 2](public/LAB 2-WPAATTACK-10-17-2016.pdf)
-*An introduction to WPA passphrase cracking*
-[Lab 3](public/LAB 3 Asymmetric Crypt FINALL.pdf)
-*An introduction to asymmetric ciphers and how they compare to symmetric ciphers*
-[Lab 4](public/LAB 4- CA Final.pdf)
-*An introduction to certificate authorities*
-[Lab 5](public/Lab 5 Gaming SSL Final.pdf)
-*A MITM attack on TLS/SSL*
+There are some great Metasploit/Metasploitable tutorials [here](http://www.hackingtutorials.org/metasploit-tutorials/).  
+There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/hack-databases-hacking-mysql-online-databases-with-sqlmap-0150368/).  
+
+Furthermore, I have posted links to the pdfs of my cybersecurity class labs.  
+[Lab 1](public/LAB 1 Symmetric Crypt-10-2-2016.pdf)  
+*An introduction to the different modes of operation used by symmetric ciphers*  
+[Lab 2](public/LAB 2-WPAATTACK-10-17-2016.pdf)  
+*An introduction to WPA passphrase cracking*  
+[Lab 3](public/LAB 3 Asymmetric Crypt FINALL.pdf)  
+*An introduction to asymmetric ciphers and how they compare to symmetric ciphers*  
+[Lab 4](public/LAB 4- CA Final.pdf)  
+*An introduction to certificate authorities*  
+[Lab 5](public/Lab 5 Gaming SSL Final.pdf)  
+*A MITM attack on TLS/SSL*  
 
 # Future
 I want to play with Metasploitable 3, which is different in that whereas
