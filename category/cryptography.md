@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: cryptography
-title: 3DS
+title: Cryptography
 permalink: /category/cryptography
 ---
