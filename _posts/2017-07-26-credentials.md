@@ -21,7 +21,7 @@ some links.
 probably about half a centimeter away from pooping myself*  
 
 TL;DR:  
-Use the [Argon2 hashing algorithm](https://en.wikipedia.org/wiki/Argon2)
+Use the [Argon2 hashing algorithm](https://en.wikipedia.org/wiki/Argon2)  
 Use a different salt for each user. The salt DOES NOT need to be hidden. You can
 store it as part of the password, or in a different database entry. Make the salt
 at least 32 bytes in length.
