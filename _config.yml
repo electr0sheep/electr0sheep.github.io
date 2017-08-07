@@ -21,6 +21,7 @@ urls:
 url: https://electr0sheep.com
 enforce_ssl: electr0sheep.com
 baseurl: ""
+comments: true
 
 # Pagination
 paginate: 20
