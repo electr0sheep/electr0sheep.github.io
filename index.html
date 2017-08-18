@@ -5,7 +5,7 @@ layout: default
 <div id="home">
     <ol class="posts">
     {% for post in paginator.posts %}
-      <a href="{{ post.url }}"><i><span>{{ post.date | date_to_string }}</span></i> &middot; {{ post.title }}</a><br />
+      <li><a href="{{ post.url }}"><i><span>{{ post.date | date_to_string }}</span></i> &middot; {{ post.title }}</a></li>
     {% endfor %}
     </ol>
 
