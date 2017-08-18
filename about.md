@@ -1,30 +1,25 @@
 ---
 layout: page
-title: About
+title: About Me
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+初めまして、私は電気の羊。
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+日本語を話しません。日本語も読みません。日本語はとても難しいです。
 
-There are currently two themes built on Poole:
+今、テキサステック大学生です。プログラミングが好きです。
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+猫がいます。猫が大好きです。
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+ギターを弾くのが上手です。すみません、ギターを弾くのがとても下手です。
 
-## Setup
+たくさん彼女がいます。御免なさい、一人の彼女がいます。すみません、彼女がいません。
 
-Some fun facts about the setup of this project include:
+今、悲しいです。あなたは私の彼女になりますか。
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+頭がよくないです、でも僕はとてもかっこいいです。
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+電子メイル: electr0sh33p@gmail.com
 
-Thanks for reading!
+よろしくお願いします。
