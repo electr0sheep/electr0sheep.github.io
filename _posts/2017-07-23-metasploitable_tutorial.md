@@ -35,9 +35,9 @@ using a single module), Metasploitable 3 isn't quite so easy. Another key
 feature of Metasploitable 3 is that it is open source. A downside is that
 Metasploitable 3 must be built manually. More info [here](https://community.rapid7.com/community/metasploit/blog/2016/11/15/test-your-might-with-the-shiny-new-metasploitable3). The repo can be found [here](https://github.com/rapid7/metasploitable3/).
 
-<script>
+<!-- <script>
 var remote_ip = prompt("Please enter Metasploitable's IP address");
 var host_ip = prompt("Please enter your IP address");
 document.getElementById('remote_ip_addr').innerHTML = remote_ip;
 document.getElementById('host_ip_addr').innerHTML = host_ip;
-</script>
+</script> -->
