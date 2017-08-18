@@ -20,6 +20,6 @@ permalink: /about/
 
 頭がよくないです、でも僕はとてもかっこいいです。
 
-電子メイル: electr0sh33p.com
+電子メイル: electr0sh33p@gmail.com
 
 よろしくお願いします。
