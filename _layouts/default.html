@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="sidebar-overlay">
+  <body>
 
     {% include sidebar.html %}
 
@@ -15,7 +15,8 @@
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
           <h3 class="masthead-title">
-            <a href="/" ><img src="/public/img/banner.png" /></a>
+            <a href="/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
           </h3>
         </div>
       </div>
@@ -26,23 +27,4 @@
     </div>
 
   </body>
-
-  <!-- This script allows sidebar to be toggled by clicking off -->
-  <script>
-    (function(document) {
-      var toggle = document.querySelector('.sidebar-toggle');
-      var sidebar = document.querySelector('#sidebar');
-      var checkbox = document.querySelector('#sidebar-checkbox');
-
-      document.addEventListener('click', function(e) {
-        var target = e.target;
-
-        if(!checkbox.checked ||
-           sidebar.contains(target) ||
-           (target === checkbox || target === toggle)) return;
-
-        checkbox.checked = false;
-      }, false);
-    })(document);
-  </script>
 </html>
