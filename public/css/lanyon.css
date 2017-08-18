@@ -38,16 +38,14 @@
 html,
 body {
   overflow-x: hidden;
-  background-image: url("/public/bg.png");
-  background-repeat: repeat;
 }
 
 html {
-  font-family: "Rubik", Georgia, "Times New Roman", serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -77,14 +75,14 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 28rem;
 }
-@media (min-width: 38em) {
+@media (min-width: 38rem) {
   .container {
     max-width: 32rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 56rem) {
   .container {
-    max-width: 41rem;
+    max-width: 38rem;
   }
 }
 
@@ -99,9 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 3px;
-  border-bottom-style: double;
-  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid #eee;
 }
 .masthead-title {
   margin-top: 0;
@@ -110,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title a {
   color: #505050;
-  text-transform: uppercase;
 }
 .masthead-title small {
   font-size: 75%;
@@ -118,22 +113,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #c0c0c0;
   letter-spacing: 0;
 }
-.masthead-title img {
-  margin-bottom: 0;
-  border-radius: 0;
-}
 
-@media (max-width: 48em) {
+@media (max-width: 48rem) {
   .masthead-title {
     text-align: center;
-    margin-right: -1rem;
-    font-size: 1rem;
   }
   .masthead-title small {
     display: none;
-  }
-  .masthead-title img {
-    padding-left: 2.5em;
   }
 }
 
@@ -155,8 +141,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Style and "hide" the sidebar */
 .sidebar {
-  border-right-style: dotted;
-  border-width: medium;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -164,23 +148,23 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
-  /*color: rgba(255,255,255,.6);*/
-  background-color: #fff;
+  color: rgba(255,255,255,.6);
+  background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   .sidebar {
-    font-size: .85rem; /* 14px */
+    font-size: .75rem; /* 14px */
   }
 }
 
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  /*color: #fff;*/
+  color: #fff;
 }
 .sidebar-item {
   padding: 1rem;
@@ -196,24 +180,17 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
-  /*border-top: 1px solid rgba(255,255,255,.1);*/
-  border-style: dotted;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: #515151;
-  text-transform: uppercase;
+  border-top: 1px solid rgba(255,255,255,.1);
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: #515151;
-  color: #fff;
-  /*border-color: transparent;*/
+  background-color: rgba(255,255,255,.1);
+  border-color: transparent;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
   .sidebar-item {
     padding: 1.5rem;
   }
@@ -240,7 +217,6 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: 4px;
   cursor: pointer;
-  border-style: double;
 }
 .sidebar-toggle:before {
   display: block;
@@ -262,7 +238,7 @@ a.sidebar-nav-item:focus {
   background-color: #505050;
 }
 
-@media (min-width: 30.1em) {
+@media (min-width: 30.1rem) {
   .sidebar-toggle {
     position: fixed;
     width: 2.25rem;
@@ -302,7 +278,6 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
-  z-index: 10;
   visibility: visible;
 }
 #sidebar-checkbox:checked ~ .sidebar,
@@ -324,28 +299,6 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
-}
-
-.post {
-  border-style: solid;
-  border-width: 0.2rem;
-  padding: 1rem;
-  background-color: #fff;
-  border-radius: 0.1rem;
-}
-
-.index-post {
-  cursor: pointer;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;
-}
-
-.index-post:hover {
-  border-style: dashed;
 }
 
 /* Blog post or page title */
@@ -404,36 +357,27 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Rubik", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
   padding: 1rem;
-  border-style: solid;
-  border-width: medium;
-  border-color: #303030;
-  text-transform: uppercase;
+  border: 1px solid #eee;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
 
-a.pagination-item {
-  color: #303030;
-}
-
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
-  border-style: dashed;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   .pagination {
     margin: 3rem 0;
   }
@@ -443,13 +387,13 @@ a.pagination-item:hover {
   }
   .pagination-item:first-child {
     margin-bottom: 0;
-    border-top-left-radius:    0.1rem;
-    border-bottom-left-radius: 0.1rem;
+    border-top-left-radius:    4px;
+    border-bottom-left-radius: 4px;
   }
   .pagination-item:last-child {
     margin-left: -1px;
-    border-top-right-radius:    0.1rem;
-    border-bottom-right-radius: 0.1rem;
+    border-top-right-radius:    4px;
+    border-bottom-right-radius: 4px;
   }
 }
 
@@ -580,29 +524,4 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
-}
-
-
-/*
- * Overlay sidebar
- *
- * Make the sidebar content overlay the viewport content instead of pushing it
- * aside when toggled.
- */
-
-.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
-  -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-}
-.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
-}
-.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
-}
-
-/* Only one tweak for a reverse layout */
-.layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
