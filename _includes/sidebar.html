@@ -7,13 +7,12 @@
     <div class="sidebar-header">
         <div class="sidebar-item">
 
-            <a href="/"><img src="/static/img/android-chrome-512x512.png" /></a>
+            <a href="/"><img src="/static/img/android-chrome-192x192.png" /></a>
         </div>
     </div>
 
-    <strong class="navheader">Navigation</strong>
-    <br /> &raquo; <a class="about" href="/">Home</a>
-    <br /> {% for i in site.urls %} &raquo; <a class="about" href="{{ i.url }}">{{ i.text }}</a>
-    <br /> {% endfor %}
+    {% for i in site.urls %}
+      <a class="btn btn-default btn-block" href="{{ i.url }}">{{ i.text }}</a>
+    {% endfor %}
 </div>
 </div>
