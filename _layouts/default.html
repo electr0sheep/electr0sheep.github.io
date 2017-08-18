@@ -47,7 +47,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/super-search.js"></script>
     <!-- This code is responsible for closing menu if user clicks outside of it -->
     <script>
         (function(document) {
@@ -65,15 +64,6 @@
                 checkbox.checked = false;
             }, false);
         })(document);
-    </script>
-    <!-- Code for the search -->
-    <script>
-        superSearch({
-            searchFile: '/feed.xml',
-            searchSelector: '#js-search', // CSS Selector for search container element.
-            inputSelector: '#js-search__input', // CSS selector for <input>
-            resultsSelector: '#js-search__results' // CSS selector for results container
-        });
     </script>
 </body>
 
