@@ -2,14 +2,6 @@
   background-color: #0F2B6D;
 }
 
-body {
-  background-image: url("/static/img/electro_logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
 .post a{
   color: DarkBlue;
   font-weight: bold;
