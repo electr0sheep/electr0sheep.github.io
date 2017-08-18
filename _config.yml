@@ -1,31 +1,24 @@
 # Dependencies
-gems: [jekyll-paginate]
-markdown: kramdown
+markdown:         redcarpet
+pygments:         true
 
-# Custom entries
-title: Electrosheep
-description: The blog of Michael DeGraw
-author: Michael DeGraw
-github: https://github.com/electr0sheep
-username: electr0sheep
-about: I am a student currently attending Texas Tech University. I no longer wish to persue a career in artificial intelligence. Cybersecurity is what interests me now. The only problem is, I'm not smart enough to be good at it! :(
-urls:
-    - text: Home
-      url: /
-    - text: Categories
-      url: /category/random
-    - text: Introduction
-      url: /intro/
-    - text: About Me
-      url: /about/
-    - text: Github
-      url: https://github.com/electr0sheep
-url: https://electr0sheep.com
-enforce_ssl: electr0sheep.com
-baseurl: ""
-comments: true
+# Permalinks
+permalink:        pretty
 
-# Pagination
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
+# Setup
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
