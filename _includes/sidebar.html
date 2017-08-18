@@ -13,8 +13,10 @@
 
     <br />
     <br />
-    {% for i in site.urls %}
-      <a class="btn btn-primary btn-lg center-block" href="{{ i.url }}">{{ i.text }}</a>
-    <br /><br />{% endfor %}
+    <div style="margin: 10 auto;">
+      {% for i in site.urls %}
+        <a class="btn btn-primary btn-lg center-block" href="{{ i.url }}">{{ i.text }}</a>
+      <br /><br />{% endfor %}
+    </div>
 </div>
 </div>
