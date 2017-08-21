@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="home">
-    <ol class="post_list post">
+    <ol class="post_list posts">
     {% for post in paginator.posts %}
       <li>{{ paginator.page | minus:1 | times:paginator.per_page | plus:forloop.index }}. <a href="{{ post.url }}"><i><span>{{ post.date | date_to_string }}</span></i> &middot; {{ post.title }}</a></li>
     {% endfor %}
