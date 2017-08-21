@@ -15,7 +15,7 @@ author:
   name:           'electrosheep'
 #  url:            https://twitter.com/mdo
 
-paginate:         15
+paginate:         7
 
 # Custom vars
 #version:          2.0.0
