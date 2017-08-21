@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div id="home">
-    <ol class="posts">
+    <ol class="post_list">
     {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}"><i><span>{{ post.date | date_to_string }}</span></i> &middot; {{ post.title }}</a></li>
+      <li>{{ paginator.page | minus:1 | times:paginator.per_page | plus:forloop.index }}. <a href="{{ post.url }}"><i><span>{{ post.date | date_to_string }}</span></i> &middot; {{ post.title }}</a></li>
     {% endfor %}
     </ol>
 
