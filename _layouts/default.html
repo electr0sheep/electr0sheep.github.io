@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="sidebar-overlay theme-base-0d">
+  <body class="sidebar-overlay">
 
     {% include sidebar.html %}
 
@@ -12,8 +12,6 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
           <h3 class="masthead-title">
             <a href="/" ><img src="/public/img/banner.png" /></a>
           </h3>
@@ -25,24 +23,24 @@
       </div>
     </div>
 
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <!-- This script allows sidebar to be toggled by clicking off -->
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
   </body>
-
-  <!-- This script allows sidebar to be toggled by clicking off -->
-  <script>
-    (function(document) {
-      var toggle = document.querySelector('.sidebar-toggle');
-      var sidebar = document.querySelector('#sidebar');
-      var checkbox = document.querySelector('#sidebar-checkbox');
-
-      document.addEventListener('click', function(e) {
-        var target = e.target;
-
-        if(!checkbox.checked ||
-           sidebar.contains(target) ||
-           (target === checkbox || target === toggle)) return;
-
-        checkbox.checked = false;
-      }, false);
-    })(document);
-  </script>
 </html>
