@@ -27,19 +27,19 @@ dashboard, so click it.
 At the bottom of this next page, you should see a section called
 *Domain Verification & DNS*. In that section, you'll see 5 DNS records you
 will need to add to your domain. So, go to your domain configuration page. As an
-example, I use CloudFlare (which you should use too), but I registered my domain
+example, I use Cloudflare (which you should use too), but I registered my domain
 through [Google Domains](https://domains.google.com). More on that in the next
 post.
 
 Anyway, now that your on your domain configuration page, you need to add the 5
 DNS records we ran into in the previous paragraph. Let's assume you're using
-CloudFlare. I'll show you exactly how to do this.
+Cloudflare. I'll show you exactly how to do this.
 
 Here is what you should see on mailgun:
 
 ![](/public/email/mailgun.webp)
 
-Here is what CloudFlare should look like once you have it set up:
+Here is what Cloudflare should look like once you have it set up:
 
 ![](/public/email/cloudflare.webp)
 

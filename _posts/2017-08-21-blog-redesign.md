@@ -41,3 +41,5 @@ content. My site would not look good without the CSS. For one, the menu button
 is a checkbox without styling, which doesn't make any sense at all. Because my
 site loads quite fast, and because I think no CSS would ruin it, I don't think
 I'll follow Google's suggestion.
+
+I have to admit, I am *massively* pleased with the results!
