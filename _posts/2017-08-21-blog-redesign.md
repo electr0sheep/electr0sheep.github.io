@@ -34,3 +34,10 @@ grandeur, and no one besides myself had ever used it. Also, my email is listed
 in the about section. So, if anyone really needs to contact me, they can use
 that channel. Until Disqus stops triggering uBlock, and giving me JavaScript
 errors, I wouldn't count on seeing it again.
+
+I am still working on [Google's PageSpeed Insights for my page](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Felectr0sheep.com),
+but it seems like the main issue there is render-blocking CSS in above-the-fold
+content. My site would not look good without the CSS. For one, the menu button
+is a checkbox without styling, which doesn't make any sense at all. Because my
+site loads quite fast, and because I think no CSS would ruin it, I don't think
+I'll follow Google's suggestion.
