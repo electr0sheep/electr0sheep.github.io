@@ -17,6 +17,7 @@ broken up into sections.
 2. [Set up GitHub Pages](#set-up-github-pages)
 3. [Use Google domains to buy your domain](#use-google-domains-to-buy-your-domain)
 4. [Use Cloudflare to configure your domain](#use-cloudflare-to-configure-your-domain)
+5. [Tie in all your changes to GitHub Pages](#tie-in-all-your-changes-to-github-pages)
 
 # Setting up accounts
 You will need several accounts for this. So, if you don't already have an
