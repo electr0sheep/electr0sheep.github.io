@@ -9,6 +9,9 @@ body {
 
 body .pagination-item {
   background-color: white;
+  border-color: black;
   border-style: solid;
+  border-width: 3px;
   border-radius: .25rem;
+  border-width:
 }
