@@ -1,6 +1,7 @@
 .post_list {
   list-style-type: none;
-  height: 350px;
+  height: 50vh;
+  overflow: scroll;
 }
 
 body {
