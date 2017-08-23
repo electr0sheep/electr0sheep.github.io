@@ -80,4 +80,5 @@ enter `smtp.mailgun.org`. For *Username:* enter the *Default SMTP Login* you fou
 earlier in the *Domain Information* field from mailgun. For *Password:* enter
 the *Default Password* which again was under *Domain Information* from mailgun.
 Make sure you leave *Secured connection using TLS* selected, then hit *Save Changes*.
+
 With all that done, you should be able to now send emails as your domain email!

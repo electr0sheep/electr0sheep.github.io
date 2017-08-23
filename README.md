@@ -14,3 +14,6 @@
 #### Modifications from [Poole](https://github.com/poole/poole)
 
 * None so far
+
+#### Body background taken from Leap Day Theme
+[https://pages-themes.github.io/leap-day/](https://pages-themes.github.io/leap-day/)
