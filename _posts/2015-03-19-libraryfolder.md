@@ -12,6 +12,6 @@ To show the 'library' folder in osx, navigate to your home folder (for me its mi
 
 
 
-![](/public/mac/LibraryFolder.png)
+![](/public/mac/LibraryFolder.webp)
 
 No crazy terminal wizardry required!
