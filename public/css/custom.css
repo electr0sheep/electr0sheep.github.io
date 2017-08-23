@@ -2,7 +2,7 @@
   list-style-type: none;
 }
 
-body {
+body:not(a) {
   background-image: url(/public/body-background.png);
   background-repeat: repeat;
 }
