@@ -3,5 +3,6 @@
 }
 
 body {
-  background-image: /public/body-background.png
+  background-image: url(/public/body-background.png);
+  background-repeat: repeat;
 }
