@@ -2,7 +2,11 @@
   list-style-type: none;
 }
 
-body:not(a) {
+body {
   background-image: url(/public/body-background.png);
   background-repeat: repeat;
+}
+
+body .pagination-item {
+  background-color: white;
 }
