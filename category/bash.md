@@ -1,5 +1,5 @@
 ---
-layout: posts_by_category
+layout: category
 categories: bash
 title: Bash
 permalink: /category/bash

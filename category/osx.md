@@ -1,5 +1,5 @@
 ---
-layout: posts_by_category
+layout: category
 categories: osx
 title: OSX
 permalink: /category/osx

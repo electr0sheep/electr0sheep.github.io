@@ -1,5 +1,5 @@
 ---
-layout: posts_by_category
+layout: category
 categories: videogames
 title: Video Games
 permalink: /category/videogames
