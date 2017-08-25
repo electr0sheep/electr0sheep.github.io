@@ -4,7 +4,12 @@ title: Github Pages doesn't support plugins???
 category: random
 ---
 
-So last night, I wrote my Warcraft post and everything was peachy...until I uploaded to git. I found that nothing I pushed was being updated! Long story short, turns out, git doesn't support ruby plugins! And I put so much effort into them as well! Well, actually no I didn't. I snagged a youtube embedder script from off the jekyll site. Interestingly, whoever wrote it didn't do it right.
+So last night, I wrote my Warcraft post and everything was peachy...until I
+uploaded to git. I found that nothing I pushed was being updated! Long story
+short, turns out, git doesn't support ruby plugins! And I put so much effort
+into them as well! Well, actually no I didn't. I snagged a youtube embedder
+script from off the jekyll site. Interestingly, whoever wrote it didn't do it
+right.
 
 Here's the youtube bit:
 {% highlight ruby linenos %}
@@ -44,7 +49,9 @@ The way that you would call this in your .md document is like this:
 This would insert an embedded youtube video of size 100x200
 Interestingly, the variable $2 in this case, would be 100 200
 $3 is 100 and $4 is 200
-The author of the original youtube script simply checked if $2 was empty, and if not assigned $2 to width and $3 to height. Perhaps this isn't the case for everyone, but from what I tested this was incorrect.
+The author of the original youtube script simply checked if $2 was empty, and if
+not assigned $2 to width and $3 to height. Perhaps this isn't the case for
+everyone, but from what I tested this was incorrect.
 
 Here's the image bit I did based off the youtube bit:
 {% highlight ruby linenos %}
@@ -84,4 +91,13 @@ end
 
 ## NO!!!
 
-Turns out, git can't use any of this. In fact, if you put these two .rb files in a plugins folder, git will go full retard and just ignore everything you submit. Like...you can check your repo and everything will be in there, but it just doesn't care. This was a touch frustrating for me, but luckily, my GitStar bro figured it out for me (^_^)
+Turns out, git can't use any of this. In fact, if you put these two .rb files in
+a plugins folder, git will go full retard and just ignore everything you submit.
+Like...you can check your repo and everything will be in there, but it just
+doesn't care. This was a touch frustrating for me, but luckily, my GitStar bro
+figured it out for me (^_^)
+
+# 8/25/2017 EDIT
+This doesn't look right, but I don't care enough about ruby to do anything about
+it currently. GitHub doesn't allow third-party ruby plugins for security reasons.
+[You can read more about that here.](https://github.com/jekyll/jekyll/issues/325)

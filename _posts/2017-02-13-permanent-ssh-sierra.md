@@ -4,7 +4,7 @@ title: How to add ssh keys permanently in macOS Sierra
 category: osx
 ---
 
-This post assumes you are familiar with basic macOS ssh structure.
+This post assumes you are familiar with basic MacOS ssh structure.
 
 The process is very simple. Let's assume that you have an ssh key called id_rsa.
 Go to your .ssh folder. Open the config file (or create it if you don't have one).

@@ -3,6 +3,8 @@ layout: post
 title: Elon Musk thinks computers are going to kill us all
 category: ai
 ---
+# 8/25/2017 Update
+Ah, the lunatic ravings of a madman.
 
 ## NOTE: BLOG ENTRY IS NOT COMPLETE
 I've spent a good chunk of the day working on this entry, and I need to do other
