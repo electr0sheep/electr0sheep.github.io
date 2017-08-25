@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Categories
-permalink: /category/
+permalink: /category/random/
 ---
 
 <ol class="post_list posts">
