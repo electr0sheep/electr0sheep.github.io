@@ -17,3 +17,7 @@ body .pagination-item {
   border-radius: .25rem;
   border-width:
 }
+
+.pagination-item:hover {
+  text-decoration: none;
+}
