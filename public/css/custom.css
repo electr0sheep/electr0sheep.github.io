@@ -26,3 +26,8 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.highlighter-rouge {
+  background-color: rgb(54,52,66);
+  color: #C1C2C3;
+}
