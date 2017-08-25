@@ -43,3 +43,9 @@ site loads quite fast, and because I think no CSS would ruin it, I don't think
 I'll follow Google's suggestion.
 
 I have to admit, I am *massively* pleased with the results!
+
+# 25/08/2017 Update
+I have just completed reformatting most of my blog posts. I have to say, after
+having reviewed them, I'm not sure if I should be totally embarrassed about what
+a complete idiot I was/am, or if I should be proud about how far I've come since
+I started writing these stupid things lmao.
