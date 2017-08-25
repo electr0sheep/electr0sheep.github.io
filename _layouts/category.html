@@ -2,22 +2,20 @@
 layout: default
 ---
 
-<header id="post-header">
-    <h1 id="post-subtitle">Articles by category:<span>{{ page.title }}</span></h1>
-</header>
-
 <div id="post-content">
     <hr />
-    {% for category in site.categories %}
-        {% capture category_slug %}{{ category | first }}{% endcapture %}
-        {% for c_slug in category_slug %}
-            {% if c_slug == page.categories %}
-                <button class="btn btn-sm btn-default active">{{ c_slug }}</button>
-            {% else %}
-                <a href="/category/{{ c_slug }}" class="btn btn-sm btn-default">{{ c_slug }}</a>
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+    <div id="category-header">
+      {% for category in site.categories %}
+          {% capture category_slug %}{{ category | first }}{% endcapture %}
+          {% for c_slug in category_slug %}
+              {% if c_slug == page.categories %}
+                  <button class="btn btn-sm btn-primary disabled">{{ c_slug }}</button>
+              {% else %}
+                  <a href="/category/{{ c_slug }}" class="btn btn-sm btn-secondary">{{ c_slug }}</a>
+              {% endif %}
+          {% endfor %}
+      {% endfor %}
+    </div>
     <hr />
 
     {% if site.categories[page.categories] %}
@@ -36,7 +34,7 @@ layout: default
             {% endif %}
 
             <ul class="posts">
-                <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+                <li><a href="{{ post.url }}"><i><span>{{ post.date | date: "%d %B" }}</span></i> &middot; {{ post.title }}</a></li>
             </ul>
 
             {% if forloop.last %}
