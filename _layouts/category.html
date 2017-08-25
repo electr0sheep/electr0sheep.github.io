@@ -4,18 +4,16 @@ layout: default
 
 <div id="post-content">
     <hr />
-    <div id="category-header">
-      {% for category in site.categories %}
-          {% capture category_slug %}{{ category | first }}{% endcapture %}
-          {% for c_slug in category_slug %}
-              {% if c_slug == page.categories %}
-                  <button class="btn btn-sm btn-primary disabled">{{ c_slug }}</button>
-              {% else %}
-                  <a href="/category/{{ c_slug }}" class="btn btn-sm btn-secondary">{{ c_slug }}</a>
-              {% endif %}
-          {% endfor %}
-      {% endfor %}
-    </div>
+    {% for category in site.categories %}
+        {% capture category_slug %}{{ category | first }}{% endcapture %}
+        {% for c_slug in category_slug %}
+            {% if c_slug == page.categories %}
+                <button class="btn btn-sm btn-primary disabled">{{ c_slug }}</button>
+            {% else %}
+                <a href="/category/{{ c_slug }}" class="btn btn-sm btn-secondary">{{ c_slug }}</a>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
     <hr />
 
     {% if site.categories[page.categories] %}
@@ -23,6 +21,7 @@ layout: default
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% if forloop.first %}
                 <h4>{{ post_year }}</h4><div class="list-group">
+                  <ol class="posts">
             {% endif %}
 
             {% if forloop.first == false %}
@@ -30,14 +29,14 @@ layout: default
                 {% capture previous_post_year %}{{ site.categories[page.categories][previous_index].date | date: '%Y' }}{% endcapture %}
                 {% if post_year != previous_post_year %}
                     </div><h4>{{ post_year }}</h4><div class="list-group">
+                      <ol class="posts">
                 {% endif %}
             {% endif %}
 
-            <ul class="posts">
                 <li><a href="{{ post.url }}"><i><span>{{ post.date | date: "%d %B" }}</span></i> &middot; {{ post.title }}</a></li>
-            </ul>
 
             {% if forloop.last %}
+          </ol>
                 </div>
             {% endif %}
         {% endfor %}
