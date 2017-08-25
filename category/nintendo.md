@@ -2,5 +2,5 @@
 layout: category
 categories: nintendo
 title: Nintendo
-permalink: /category/nintendo
+permalink: /category/nintendo/
 ---

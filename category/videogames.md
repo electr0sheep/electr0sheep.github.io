@@ -2,5 +2,5 @@
 layout: category
 categories: videogames
 title: Video Games
-permalink: /category/videogames
+permalink: /category/videogames/
 ---

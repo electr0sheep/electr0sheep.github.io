@@ -2,5 +2,5 @@
 layout: category
 categories: cryptography
 title: Cryptography
-permalink: /category/cryptography
+permalink: /category/cryptography/
 ---
