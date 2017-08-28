@@ -31,3 +31,8 @@ img {
   background-color: rgb(54,52,66);
   color: #C1C2C3;
 }
+
+a {
+  display: block;
+  word-wrap: break-word;
+}
