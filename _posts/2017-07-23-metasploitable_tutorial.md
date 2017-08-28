@@ -16,17 +16,16 @@ There are also some good tutorials on using some of Kali's many tools [here](htt
 Offensive Security, the folks who brought you Kali Linux also have some free
 tutorials [here](https://www.offensive-security.com/metasploit-unleashed/).  
 
-Furthermore, I have posted links to the pdfs of my cybersecurity class labs.  
-[Lab 1](/public/files/LAB1.pdf)  
-*An introduction to the different modes of operation used by symmetric ciphers*  
-[Lab 2](/public/files/LAB2.pdf)  
-*An introduction to WPA passphrase cracking*  
-[Lab 3](/public/files/LAB3.pdf)  
-*An introduction to asymmetric ciphers and how they compare to symmetric ciphers*  
-[Lab 4](/public/files/LAB4.pdf)  
-*An introduction to certificate authorities*  
-[Lab 5](/public/files/Lab5.pdf)  
-*A MITM attack on TLS/SSL*  
+Furthermore, I have posted links to the pdfs of my cybersecurity class labs.
+
+
+| File                            | Description                                                                       |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| [Lab 1](/public/files/LAB1.pdf) | *An introduction to the different modes of operation used by symmetric ciphers*   |
+| [Lab 2](/public/files/LAB2.pdf) | *An introduction to WPA passphrase cracking*                                      |
+| [Lab 3](/public/files/LAB3.pdf) | *An introduction to asymmetric ciphers and how they compare to symmetric ciphers* |
+| [Lab 4](/public/files/LAB4.pdf) | *An introduction to certificate authorities*                                      |
+| [Lab 5](/public/files/Lab5.pdf) | *A MITM attack on TLS/SSL*                                                        |
 
 # Future
 I want to play with Metasploitable 3, which is different in that whereas

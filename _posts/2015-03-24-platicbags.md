@@ -4,4 +4,4 @@ title: Captain, do not you think we could have done better than simply placing p
 category: random
 ---
 
-![plasticbags](/public/startrek/plasticbags.webp)
+![plasticbags](/public/img/startrek/plasticbags.jpg)

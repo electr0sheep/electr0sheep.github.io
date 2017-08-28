@@ -22,11 +22,15 @@ of posts.
 
 Now, what is the end-game for me here? Well my friend, I proudly present to you
 
-![](/public/redesign/pingdom.webp)
+<picture>
+  <source srcset="/public/img/redesign/pingdom.webp" type="image/webp">
+  <source srcset="/public/img/redesign/pingdom.jpg" type="image/jpeg">
+  <img src="/public/img/redesign/pingdom.jpg" alt="Oops, this isn't right!">
+</picture>
 
 And also
 
-![](/public/redesign/ublock.png)
+![](/public/img/redesign/ublock.png)
 
 Now, the real question is why did I get rid of Disqus? Well, Disqus was causing
 JavaScript errors, and also was triggering uBlock. Also, I have no delusions of

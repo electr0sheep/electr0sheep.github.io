@@ -37,11 +37,19 @@ Cloudflare. I'll show you exactly how to do this.
 
 Here is what you should see on mailgun:
 
-![](/public/email/mailgun.webp)
+<picture>
+  <source srcset="/public/img/email/mailgun.webp" type="image/webp">
+  <source srcset="/public/img/email/mailgun.jpg" type="image/jpeg">
+  <img src="/public/img/email/mailgun.jpg" alt="Oops, this isn't right!">
+</picture>
 
 Here is what Cloudflare should look like once you have it set up:
 
-![](/public/email/cloudflare.webp)
+<picture>
+  <source srcset="/public/img/email/cloudflare.webp" type="image/webp">
+  <source srcset="/public/img/email/cloudflare.jpg" type="image/jpeg">
+  <img src="/public/img/email/cloudflare.jpg" alt="Oops, this isn't right!">
+</picture>
 
 <div markdown="1" class="alert alert-danger" role="alert">
 Your **mx._domainkey**.domain.com TXT record is a private key that you shouldn't
@@ -56,7 +64,7 @@ to your gmail account. To do this, go back to your mailgun dashboard. Select
 You'll want to do some tweaking, but here is an example of how you should fill
 this out:
 
-![](/public/email/route.webp)
+![](/public/img/email/route.jpg)
 
 With that done, you should now have any emails directed to your domain email
 sent to your primary gmail account. Now, we need to make it so you can send

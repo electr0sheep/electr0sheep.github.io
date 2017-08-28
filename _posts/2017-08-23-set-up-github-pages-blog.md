@@ -94,7 +94,11 @@ First, log in to your Cloudflare account and add your domain. You may have to
 verify your domain or something like that. Once all that is done, you should be
 presented with the Cloudflare dashboard, which will look something like this:
 
-![](/public/github_pages/cloudflare.webp)
+<picture>
+  <source srcset="/public/img/github_pages/cloudflare.webp" type="image/webp">
+  <source srcset="/public/img/github_pages/cloudflare.jpg" type="image/jpeg">
+  <img src="/public/img/github_pages/cloudflare.jpg" alt="Oops, this isn't right!">
+</picture>
 
 From there, click on the *DNS* button. Scroll down passed DNS Recods, and you
 should see Cloudflare Nameservers.

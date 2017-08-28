@@ -4,6 +4,9 @@ var urlsToCache = [
   '/public/css/lanyon.css',
   '/public/css/poole.css',
   '/public/css/syntax.css',
+  '/public/css/darkly.css',
+  '/public/css/bootstrap.css',
+  '/public/css/custom.css'
 ];
 
 self.addEventListener('install', function(event) {

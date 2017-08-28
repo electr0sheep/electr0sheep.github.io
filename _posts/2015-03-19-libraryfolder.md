@@ -13,8 +13,6 @@ To show the 'library' folder in osx, navigate to your home folder, right click
 on some empty space, click "show view options" from the popup menu, then you
 will see a check box for "Show library Folder".
 
-
-
-![](/public/mac/LibraryFolder.webp)
+![](/public/img/mac/LibraryFolder.jpg)
 
 No crazy terminal wizardry required!

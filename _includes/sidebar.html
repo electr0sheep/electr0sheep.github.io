@@ -5,7 +5,13 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <a href="/"><img src="/public/img/android-chrome-192x192.webp" /></a>
+    <a href="/">
+      <picture>
+        <source srcset="/public/img/android-chrome-192x192.webp" type="image/webp">
+        <source srcset="/public/img/android-chrome-192x192.png" type="image/png">
+        <img src="/public/img/android-chrome-192x192.png" alt="Oops, this isn't right!">
+      </picture>
+    </a>
   </div>
 
   <nav class="sidebar-nav">
