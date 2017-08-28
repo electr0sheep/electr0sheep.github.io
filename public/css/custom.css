@@ -34,9 +34,9 @@ img {
 .highlighter-rouge {
   background-color: rgb(54,52,66);
   color: #C1C2C3;
+  border-radius: 0.25rem;
 }
 
-a {
-  display: block;
+.alert,p a {
   word-wrap: break-word;
 }
