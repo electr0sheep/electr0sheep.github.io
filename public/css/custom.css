@@ -41,3 +41,7 @@ img {
 .alert,p a {
   word-wrap: break-word;
 }
+
+#category-header .btn {
+  margin: 2px;
+}
