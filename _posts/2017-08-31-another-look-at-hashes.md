@@ -54,6 +54,11 @@ the odds are 50%.
 The relationship between this and finding hash collisions
 should be obvious.
 
+You can find the exact details regarding this problem over at [Wikipedia](https://en.wikipedia.org/wiki/Birthday_problem),
+but just for the sake of those who are interested, if you have a set with a
+cardinality of *x*, then after you have examined 1.2 * sqrt(*x*), the odds of
+you finding a duplicate element are approximately 50%.
+
 ## Difference between second pre-image resistance and collision resistance
 At first glance, they appear to be the same. However, there is a key difference.
 Let's apply the birthday paradox to find out what it is, but let's change up
