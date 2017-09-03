@@ -25,7 +25,7 @@ Furthermore, I have posted links to the pdfs of my cybersecurity class labs.
 | [Lab 2](/public/files/LAB2.pdf) | *An introduction to WPA passphrase cracking*                                      |
 | [Lab 3](/public/files/LAB3.pdf) | *An introduction to asymmetric ciphers and how they compare to symmetric ciphers* |
 | [Lab 4](/public/files/LAB4.pdf) | *An introduction to certificate authorities*                                      |
-| [Lab 5](/public/files/Lab5.pdf) | *A MITM attack on TLS/SSL*                                                        |
+| [Lab 5](/public/files/LAB5.pdf) | *An introduction to SSL strip attacks*                                            |
 
 # Future
 I want to play with Metasploitable 3, which is different in that whereas
