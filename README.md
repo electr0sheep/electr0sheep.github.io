@@ -1,15 +1,16 @@
 ## electr0sheep.com
 
 ### Description
-* My personal blog, based on the Lanyon/Poole theme, where I yammer on incessantly.
+* My personal blog, based on the Lanyon theme, where I yammer on incessantly.
 
-### Demo
+### Location
 * [https://electr0sheep.com](https://electr0sheep.com)
 
 #### Modifications from [Lanyon](https://github.com/poole/lanyon)
 
 * Menu button is always visible
 * Sidebar functions properly
+* A major departure from the stock Lanyon theme is my categories feature.
 
 #### Modifications from [Poole](https://github.com/poole/poole)
 
