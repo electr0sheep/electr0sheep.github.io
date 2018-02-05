@@ -4,22 +4,20 @@ title: About Me
 permalink: /about/
 ---
 
-初めまして、私は電気の羊。
+My name is Michael DeGraw.
 
-日本語を話しません。日本語も読みません。日本語はとても難しいです。
+I recently graduated from Texas Tech University in Lubbock, TX with a degree in
+Computer Science. My area of interest is Cyber Security, which I find
+fascinating.
 
-今、テキサステック大学生です。プログラミングが好きです。
+I also enjoy working on my car, find physics and engineering supremely
+interesting, and enjoy learning Japanese as well.
 
-猫がいます。猫が大好きです。
+I am too broke currently, but my long-term career goal is to eventually obtain
+my OSCP certification, and do penetration testing. My favorite thing to do is
+learn new things about Kali Linux.
 
-ギターを弾くのが上手です。すみません、ギターを弾くのがとても下手です。
+Besides cryptography, I enjoy web design, specifically making lightweight
+websites that load fast and look good.
 
-たくさん彼女がいます。御免なさい、一人の彼女がいます。すみません、彼女がいません。
-
-今、悲しいです。あなたは私の彼女になりますか。
-
-頭がよくないです、でも僕はとてもかっこいいです。
-
-電子メイル: electr0sheep@electr0sheep.com
-
-よろしくお願いします。
+If you want to get in touch with me, you can do so using my email: [electr0sheep@electr0sheep.com](electr0sheep@electr0sheep.com)
