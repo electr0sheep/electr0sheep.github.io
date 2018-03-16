@@ -104,9 +104,8 @@ be a workload/security tradeoff. Let's say you want a hashing algorithm to take
 one minute to complete. This means that your hashes will *never* be brute forced.
 Your hashes are as secure as a spec of gold dust in Fort Knox. If an attacker
 somehow gets a dump of your database, they'll throw away the password hashes and
-move on. What this also means, is that you have effectively DDoSed yourself. For
+move on. What this also means, is that you have effectively DoS-ed yourself. For
 one, it will take a user one minute to be logged in. For another, after you have
-100 people trying to log in, your server won't be able to handle it, and the
-unfortunate soul who was 100th to log in will have to wait *forever* to log in.
+lots of people trying to log in, your server won't be able to handle it.
 So, in practice, you want your hashing algorithm to take as long as it can,
-without negatively impacting your users, and also without DDoSing yourself.
+without negatively impacting your users, and also without DoS-ing yourself.
