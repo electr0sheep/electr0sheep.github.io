@@ -81,17 +81,17 @@ as bad as what we have already accomplished in the past, but you do need to be
 careful. Fair enough.
 
 I gleamed that information from the
-[Washington Post](http://www.washingtonpost.com/news/morning-mix/wp/2014/11/18/why-elon-musk-is-scared-of-killer-robots/).
+[Washington Post](https://www.washingtonpost.com/news/morning-mix/wp/2014/11/18/why-elon-musk-is-scared-of-killer-robots/).
 Now, I could go on about how just because a company doesn't turn a profit
 (Non-profit organizations like the NCAA also don't profit. To accomplish this,
 they make sure they spend every dime they make. What they can "spend" this cash
 on is not as limited as one might thing. If the NCAA generates
-[$1.134 billion](http://tvbythenumbers.zap2it.com/2015/03/09/march-madness-generates-7-5-billion-in-tv-advertising-since-2005/372813/) in ad revenue from the 2014 March Madness season, and it spends only [4%](http://www.ncaa.org/health-and-safety/sport-science-institute/ncaa-budget-where-money-goes)
+[$1.134 billion](https://tvbythenumbers.zap2it.com/2015/03/09/march-madness-generates-7-5-billion-in-tv-advertising-since-2005/372813/) in ad revenue from the 2014 March Madness season, and it spends only [4%](https://www.ncaa.org/health-and-safety/sport-science-institute/ncaa-budget-where-money-goes)
 (See 'how are NCAA funds distributed') of its income on its 500 employees, that
 means for the 2014 March Madness season alone, they had $45,360,000 to disburse
 amongst themselves. That means that if each employee is paid the same, ignoring
 that
-[CEOs earn 331 times as much as their workers](http://www.forbes.com/sites/kathryndill/2014/04/15/report-ceos-earn-331-times-as-much-as-average-workers-774-times-as-much-as-minimum-wage-earners/)
+[CEOs earn 331 times as much as their workers](https://www.forbes.com/sites/kathryndill/2014/04/15/report-ceos-earn-331-times-as-much-as-average-workers-774-times-as-much-as-minimum-wage-earners/)
 , each employee earned $90,720 from MARCH MADNESS ALONE. Yep this parenthesis
 started up there on the second line), doesn't mean the company isn't
 "profitable", and how I feel that I would imagine a similar situation would
@@ -106,7 +106,7 @@ the other...ethics...oh that's right Elon Musk feels that it his his
 responsibility to warn humanity about the dangers of sentient AI.
 
 Okay, let's start by differentiating between AI and the AI that Elon Musk,
-Stephen Hawking, and their associates at [Future of Life](http://futureoflife.org/)
+Stephen Hawking, and their associates at [Future of Life](https://futureoflife.org/)
 are actually worried about.
 
 ## AI
@@ -117,7 +117,7 @@ say that intelligence is simply the ability to learn, and to make use of that
 learned knowledge.
 
 AI has been around since...well since
-[video games decided it would be cool if humans could go up against a computer controlled opponent](http://en.wikipedia.org/wiki/First_video_game#Nim_.281951.29).
+[video games decided it would be cool if humans could go up against a computer controlled opponent](https://en.wikipedia.org/wiki/First_video_game#Nim_.281951.29).
 AI is an acronym for Artificial Intelligence. What makes AI artificial though?
 Artificial, in this sense, indicates that intelligence is simply simulated. It
 is intelligence that is pre-programmed, limited to that initial programming, and
@@ -126,12 +126,12 @@ procedures).
 
 AI takes many forms, and has many design approaches. I will not discuss them
 here. If this is something you are interested in, feel free to dissect
-[the Wikipedia page about AI](http://en.wikipedia.org/wiki/Artificial_intelligence).
+[the Wikipedia page about AI](https://en.wikipedia.org/wiki/Artificial_intelligence).
 
 So, AI can be thought of as intelligence that is not learned, but
 pre-programmed, and usually extremely limited. The AI that Musk and co are so
 threatened by is not this limited form of AI, but rather,
-[superintelligence](http://www.washingtonpost.com/blogs/innovations/wp/2015/03/24/elon-musk-neil-degrasse-tyson-laugh-about-artificial-intelligence-turning-the-human-race-into-its-pet-labrador/)
+[superintelligence](https://www.washingtonpost.com/blogs/innovations/wp/2015/03/24/elon-musk-neil-degrasse-tyson-laugh-about-artificial-intelligence-turning-the-human-race-into-its-pet-labrador/)
 , as they like to call it. I will refer to "superintelligence" simply as true
 intelligence.
 
@@ -183,7 +183,7 @@ self: make a mobile game called Termite Takeover). I have nothing further to say
 about this. Seriously. Stupidest thing I have freaking ever heard in my entire
 life.
 
-## [Elon Musk thinks a truly intelligent system may inadvertently, thinking that it is maximizing human happiness, load us up with dopamine and serotonin](http://www.washingtonpost.com/blogs/innovations/wp/2015/03/24/elon-musk-neil-degrasse-tyson-laugh-about-artificial-intelligence-turning-the-human-race-into-its-pet-labrador/)
+## [Elon Musk thinks a truly intelligent system may inadvertently, thinking that it is maximizing human happiness, load us up with dopamine and serotonin](https://www.washingtonpost.com/blogs/innovations/wp/2015/03/24/elon-musk-neil-degrasse-tyson-laugh-about-artificial-intelligence-turning-the-human-race-into-its-pet-labrador/)
 Okay, this one made me laugh out loud, literally. Wait, did I say the above
 doomsday scenario was the stupidest thing I've ever heard? I think maybe it's
 this one. I can't remember. Moving right along. A supremely intelligent system,
@@ -199,7 +199,7 @@ retarded, and it spews forth as Mr. Spock put it, "a torrential flood of
 illogic" that is somehow dangerous to humanity.
 
 ## SPOILER ALERT!!! The computer system believes that humanity is it's own greatest threat, and exterminates us to prevent us from exterminating ourselves
-[\#masseffectplot](http://www.giantbomb.com/profile/theht/blog/synthetics-vs-organics-the-catalyst-and-endings-sp/91939/)
+[\#masseffectplot](https://www.giantbomb.com/profile/theht/blog/synthetics-vs-organics-the-catalyst-and-endings-sp/91939/)
 
 > What we do know is that it [the star child at the end] has a purpose, namely
 > bringing order to the galaxy. However there's more to this than it relays
@@ -213,13 +213,13 @@ illogic" that is somehow dangerous to humanity.
 Feel free to talk to Mass Effect fans about how intelligent the star child was.
 Basically, it was so intelligent that, while its 'solution' at first glance--and
 also the second and third glances--appears to be completely contradictory, it
-turns out humanity is simply too stupid to understand... [\#Starchild](http://cache.g4tv.com/ImageDb3/303555_S/mass-effect-3-hipster-star-child-knew-about-the-reapers-before-you-did.jpg) \#NoOneUnderstandsMe
+turns out humanity is simply too stupid to understand... [\#Starchild](https://cache.g4tv.com/ImageDb3/303555_S/mass-effect-3-hipster-star-child-knew-about-the-reapers-before-you-did.jpg) \#NoOneUnderstandsMe
 
 ## The computer system believes that humanity is a threat to the planet, and wipes us out to preserve the other billion lifeforms on the planet
-[By far, the most logical, if still nonsensical scenario](http://www.washingtonpost.com/national/health-science/scientists-human-activity-has-pushed-earth-beyond-four-of-nine-planetary-boundaries/2015/01/15/f52b61b6-9b5e-11e4-a7ee-526210d665b4_story.html).
+[By far, the most logical, if still nonsensical scenario](https://www.washingtonpost.com/national/health-science/scientists-human-activity-has-pushed-earth-beyond-four-of-nine-planetary-boundaries/2015/01/15/f52b61b6-9b5e-11e4-a7ee-526210d665b4_story.html).
 I think that the intelligent system would deal with this situation much like a
 parent deals with a disobedient child. Okay, okay, but *very* few parents
-discipline their children by putting them in the [washer](http://www.wfaa.com/story/news/crime/2014/12/10/washing-machine-garland-police-boy-death-father-arrested/20209273/).
+discipline their children by putting them in the [washer](https://www.wfaa.com/story/news/crime/2014/12/10/washing-machine-garland-police-boy-death-father-arrested/20209273/).
 
 ## Human arrogance and the false assumptions most take into the argument as givens
  I believe that human arrogance leads us to several false conclusions.
@@ -239,7 +239,7 @@ is a display of illogic to wipe a species into extinction.  I will discuss this
 point later.
 
 ## The dangers of an AI that is subject to human will
-Interestingly, Musk and co believe that "[Our AI systems must do what we want them to do](http://www.livescience.com/49419-artificial-intelligence-dangers-letter.html)."
+Interestingly, Musk and co believe that "[Our AI systems must do what we want them to do](https://www.livescience.com/49419-artificial-intelligence-dangers-letter.html)."
 I say this because, they believe it is unethical to produce an intelligent being
 that is not under our control. I have the opposite opinion. Not only is it
 ethical to create an autonomous truly intelligent being, but it is UNETHICAL to

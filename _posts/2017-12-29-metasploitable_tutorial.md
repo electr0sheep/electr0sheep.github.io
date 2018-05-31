@@ -11,7 +11,7 @@ assess vulnerabilities.
 This post is a WIP, but I will link several resources you can use while I figure
 out what I am doing myself.
 
-There are some great Metasploit/Metasploitable tutorials [here](http://www.hackingtutorials.org/metasploit-tutorials/).  
+There are some great Metasploit/Metasploitable tutorials [here](https://www.hackingtutorials.org/metasploit-tutorials/).  
 There are also some good tutorials on using some of Kali's many tools [here](https://null-byte.wonderhowto.com/how-to/).  
 Offensive Security, the folks who brought you Kali Linux also have some free
 tutorials [here](https://www.offensive-security.com/metasploit-unleashed/).  

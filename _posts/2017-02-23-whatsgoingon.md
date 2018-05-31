@@ -19,7 +19,7 @@ like crap, and was stoked when I installed the beta of Yosemite and found that
 it was more Material Design-ish.
 
 For an example of a blog that I would consider well-designed, [head on over to
-my brother's blog](http://catskull.net).
+my brother's blog](https://catskull.net).
 
 So yeah, sorry for all the clutter, but honestly, I think I'm the only one who
 ever looks at this crap, which is why I have stated in this very blog that I

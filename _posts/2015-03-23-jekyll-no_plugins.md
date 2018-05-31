@@ -44,7 +44,7 @@ end
 
 The way that you would call this in your .md document is like this:
 {% raw %}
-	{% youtube http://www.youtube.com/Rasdf325#@/ 100 200 %}
+	{% youtube https://www.youtube.com/Rasdf325#@/ 100 200 %}
 {% endraw %}
 This would insert an embedded youtube video of size 100x200
 Interestingly, the variable $2 in this case, would be 100 200
